@@ -1,2 +1,11 @@
-# spirv
-KAMI clj-wgsl migration Phase 4 home (ADR-2607010930) — scaffold, Wave-2 port lands here
+# kotoba-lang/spirv
+
+Kotoba DSL package for `kotoba.spirv`.
+
+The implementation lives in `spirv.core`; `kotoba.spirv` is provided as a compatibility facade.
+
+## Test
+
+```sh
+clojure -M:test
+```
