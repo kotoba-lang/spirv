@@ -19,7 +19,7 @@
      [:OpStore :color :white]             → OpStore %color %white
    (In .clj code quote the instruction vector — '[:OpCapability Shader] — so enums stay symbols; in an
    .edn data file no quoting is needed.)"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (defn- ident [s] (str/replace (name s) "-" "_"))
 
