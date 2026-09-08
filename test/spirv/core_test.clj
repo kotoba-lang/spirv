@@ -4,7 +4,7 @@
    and a whole minimal fragment module that writes a constant colour. Instruction vectors are quoted so
    enum tokens stay symbols (Shader, Output, …) — exactly how an .edn data file would carry them."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [spirv.core :as sp]))
 
 (deftest operand-kinds
