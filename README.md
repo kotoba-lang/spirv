@@ -7,5 +7,5 @@ The implementation lives in `spirv.core`; `kotoba.spirv` is provided as a compat
 ## Test
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
